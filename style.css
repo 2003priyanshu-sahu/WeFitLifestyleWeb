@@ -75,6 +75,7 @@ header{
     top:0; left: 0;
     z-index: 1000;
     padding:2rem 3rem;
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
 }
 
 header .logo{
@@ -106,9 +107,7 @@ header .navbar ul li a.active,
 header .navbar ul li a:hover{
     color:var(--orange);
 }
-.back-header{
-    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
-}
+
 header #menu{
     font-size: 3rem;
     color:var(--orange);
